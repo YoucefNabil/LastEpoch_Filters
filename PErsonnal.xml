@@ -3,7 +3,7 @@
   <filterIcon>0</filterIcon>
   <filterIconColor>0</filterIconColor>
   <description />
-  <lastModifiedInVersion>1.0.2</lastModifiedInVersion>
+  <lastModifiedInVersion>1.2</lastModifiedInVersion>
   <lootFilterVersion>3</lootFilterVersion>
   <rules>
     <Rule>
@@ -100,7 +100,7 @@
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
-      <nameOverride>good affixes</nameOverride>
+      <nameOverride>good affixes (class specific)</nameOverride>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -174,7 +174,7 @@
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
-      <nameOverride>good affixes</nameOverride>
+      <nameOverride>good affixes (class specific)</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -248,7 +248,7 @@
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
-      <nameOverride>good affixes</nameOverride>
+      <nameOverride>good affixes (Class specific)</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -275,7 +275,7 @@
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
-      <nameOverride>DO NOT MISS THESE</nameOverride>
+      <nameOverride>DO NOT MISS THESE (level increase main skills)</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -736,6 +736,28 @@
             <int>678</int>
             <int>677</int>
             <int>676</int>
+            <int>825</int>
+            <int>760</int>
+            <int>824</int>
+            <int>759</int>
+            <int>764</int>
+            <int>765</int>
+            <int>762</int>
+            <int>761</int>
+            <int>766</int>
+            <int>767</int>
+            <int>768</int>
+            <int>769</int>
+            <int>770</int>
+            <int>771</int>
+            <int>772</int>
+            <int>773</int>
+            <int>774</int>
+            <int>775</int>
+            <int>776</int>
+            <int>777</int>
+            <int>778</int>
+            <int>779</int>
           </affixes>
           <comparsion>EQUAL</comparsion>
           <comparsionValue>7</comparsionValue>
@@ -1118,88 +1140,88 @@
             <int>653</int>
             <int>654</int>
             <int>726</int>
-            <int>437</int>
-            <int>439</int>
-            <int>440</int>
-            <int>442</int>
-            <int>443</int>
-            <int>446</int>
-            <int>448</int>
-            <int>449</int>
-            <int>451</int>
-            <int>453</int>
-            <int>454</int>
-            <int>457</int>
-            <int>459</int>
-            <int>461</int>
-            <int>463</int>
-            <int>468</int>
-            <int>469</int>
-            <int>471</int>
-            <int>473</int>
-            <int>475</int>
-            <int>477</int>
-            <int>479</int>
-            <int>481</int>
-            <int>483</int>
-            <int>485</int>
-            <int>487</int>
-            <int>489</int>
-            <int>494</int>
-            <int>496</int>
-            <int>498</int>
-            <int>500</int>
-            <int>509</int>
-            <int>511</int>
-            <int>513</int>
-            <int>515</int>
-            <int>517</int>
-            <int>521</int>
-            <int>524</int>
-            <int>526</int>
-            <int>528</int>
-            <int>530</int>
-            <int>532</int>
-            <int>534</int>
-            <int>536</int>
-            <int>537</int>
-            <int>608</int>
-            <int>609</int>
-            <int>610</int>
-            <int>611</int>
-            <int>612</int>
-            <int>613</int>
-            <int>614</int>
-            <int>615</int>
-            <int>616</int>
-            <int>617</int>
-            <int>618</int>
-            <int>619</int>
-            <int>620</int>
-            <int>638</int>
-            <int>640</int>
-            <int>641</int>
-            <int>642</int>
-            <int>662</int>
-            <int>519</int>
-            <int>727</int>
-            <int>728</int>
-            <int>729</int>
-            <int>730</int>
-            <int>731</int>
+            <int>761</int>
             <int>739</int>
-            <int>758</int>
-            <int>708</int>
-            <int>707</int>
-            <int>699</int>
-            <int>698</int>
-            <int>706</int>
-            <int>705</int>
-            <int>704</int>
-            <int>703</int>
-            <int>702</int>
-            <int>700</int>
-            <int>701</int>
+            <int>731</int>
+            <int>730</int>
+            <int>729</int>
+            <int>728</int>
+            <int>727</int>
+            <int>519</int>
+            <int>662</int>
+            <int>642</int>
+            <int>641</int>
+            <int>640</int>
+            <int>638</int>
+            <int>620</int>
+            <int>619</int>
+            <int>618</int>
+            <int>617</int>
+            <int>616</int>
+            <int>615</int>
+            <int>614</int>
+            <int>613</int>
+            <int>612</int>
+            <int>611</int>
+            <int>610</int>
+            <int>609</int>
+            <int>608</int>
+            <int>537</int>
+            <int>536</int>
+            <int>534</int>
+            <int>762</int>
+            <int>532</int>
+            <int>530</int>
+            <int>528</int>
+            <int>526</int>
+            <int>524</int>
+            <int>521</int>
+            <int>517</int>
+            <int>515</int>
+            <int>513</int>
+            <int>511</int>
+            <int>509</int>
+            <int>500</int>
+            <int>496</int>
+            <int>494</int>
+            <int>489</int>
+            <int>487</int>
+            <int>485</int>
+            <int>483</int>
+            <int>481</int>
+            <int>479</int>
+            <int>477</int>
+            <int>475</int>
+            <int>473</int>
+            <int>471</int>
+            <int>469</int>
+            <int>468</int>
+            <int>463</int>
+            <int>461</int>
+            <int>459</int>
+            <int>457</int>
+            <int>454</int>
+            <int>453</int>
+            <int>451</int>
+            <int>449</int>
+            <int>448</int>
+            <int>446</int>
+            <int>443</int>
+            <int>442</int>
+            <int>440</int>
+            <int>439</int>
+            <int>768</int>
+            <int>769</int>
+            <int>770</int>
+            <int>771</int>
+            <int>772</int>
+            <int>773</int>
+            <int>774</int>
+            <int>775</int>
+            <int>776</int>
+            <int>777</int>
+            <int>778</int>
+            <int>779</int>
             <int>714</int>
             <int>713</int>
             <int>712</int>
@@ -1212,6 +1234,28 @@
             <int>678</int>
             <int>677</int>
             <int>676</int>
+            <int>767</int>
+            <int>766</int>
+            <int>758</int>
+            <int>708</int>
+            <int>707</int>
+            <int>699</int>
+            <int>698</int>
+            <int>706</int>
+            <int>705</int>
+            <int>704</int>
+            <int>703</int>
+            <int>702</int>
+            <int>700</int>
+            <int>701</int>
+            <int>498</int>
+            <int>437</int>
+            <int>764</int>
+            <int>765</int>
+            <int>759</int>
+            <int>824</int>
+            <int>760</int>
+            <int>825</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>6</comparsionValue>
@@ -1296,7 +1340,7 @@
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
-      <nameOverride>General Idols (at least 2)</nameOverride>
+      <nameOverride>General Idols (at least 2) (class specific stats)</nameOverride>
     </Rule>
     <Rule>
       <type>SHOW</type>
