@@ -3,7 +3,7 @@
   <filterIcon>0</filterIcon>
   <filterIconColor>0</filterIconColor>
   <description />
-  <lastModifiedInVersion>1.2.0.2</lastModifiedInVersion>
+  <lastModifiedInVersion>1.2.0.6</lastModifiedInVersion>
   <lootFilterVersion>3</lootFilterVersion>
   <rules>
     <Rule>
@@ -29,328 +29,89 @@
       <nameOverride />
     </Rule>
     <Rule>
-      <type>SHOW</type>
+      <type>HIGHLIGHT</type>
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>502</int>
-            <int>49</int>
-            <int>4</int>
-            <int>84</int>
-            <int>38</int>
-            <int>9</int>
-            <int>39</int>
-            <int>100</int>
-            <int>722</int>
-            <int>23</int>
-            <int>6</int>
-            <int>5</int>
-            <int>80</int>
+            <int>10</int>
             <int>46</int>
-            <int>99</int>
-            <int>382</int>
-            <int>27</int>
-            <int>85</int>
-            <int>758</int>
-            <int>708</int>
-            <int>707</int>
-            <int>699</int>
-            <int>698</int>
-            <int>706</int>
-            <int>705</int>
-            <int>704</int>
-            <int>703</int>
-            <int>702</int>
-            <int>700</int>
-            <int>701</int>
-            <int>676</int>
-            <int>677</int>
-            <int>678</int>
-            <int>673</int>
-            <int>675</int>
-            <int>711</int>
-            <int>713</int>
-            <int>714</int>
-            <int>712</int>
-            <int>710</int>
-            <int>674</int>
-            <int>679</int>
-            <int>381</int>
-            <int>385</int>
-            <int>395</int>
-            <int>400</int>
-            <int>557</int>
-            <int>556</int>
-            <int>575</int>
-            <int>628</int>
-            <int>696</int>
-            <int>551</int>
+            <int>45</int>
+            <int>19</int>
+            <int>7</int>
           </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>1</combinedComparsionValue>
-          <advanced>false</advanced>
+          <combinedComparsionValue>3</combinedComparsionValue>
+          <advanced>true</advanced>
         </Condition>
       </conditions>
-      <color>0</color>
-      <isEnabled>false</isEnabled>
+      <color>15</color>
+      <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
-      <nameOverride>good affixes (class specific) (disable these if showing too many items)</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>502</int>
-            <int>49</int>
-            <int>4</int>
-            <int>84</int>
-            <int>38</int>
-            <int>9</int>
-            <int>39</int>
-            <int>100</int>
-            <int>722</int>
-            <int>23</int>
-            <int>6</int>
-            <int>5</int>
-            <int>80</int>
-            <int>46</int>
-            <int>99</int>
-            <int>382</int>
-            <int>27</int>
-            <int>85</int>
-            <int>758</int>
-            <int>708</int>
-            <int>707</int>
-            <int>699</int>
-            <int>698</int>
-            <int>706</int>
-            <int>705</int>
-            <int>704</int>
-            <int>703</int>
-            <int>702</int>
-            <int>700</int>
-            <int>701</int>
-            <int>676</int>
-            <int>677</int>
-            <int>678</int>
-            <int>673</int>
-            <int>675</int>
-            <int>711</int>
-            <int>713</int>
-            <int>714</int>
-            <int>712</int>
-            <int>710</int>
-            <int>674</int>
-            <int>679</int>
-            <int>381</int>
-            <int>385</int>
-            <int>395</int>
-            <int>400</int>
-            <int>557</int>
-            <int>556</int>
-            <int>575</int>
-            <int>628</int>
-            <int>696</int>
-            <int>551</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>1</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>good affixes (class specific)</nameOverride>
+      <nameOverride>good affixes (def) tier 3 and up</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>551</int>
-            <int>556</int>
-            <int>557</int>
-            <int>575</int>
-            <int>628</int>
+            <int>502</int>
+            <int>49</int>
+            <int>38</int>
+            <int>9</int>
+            <int>39</int>
+            <int>722</int>
+            <int>23</int>
+            <int>696</int>
+            <int>381</int>
           </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>3</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>1</combinedComparsionValue>
-          <advanced>false</advanced>
+          <combinedComparsionValue>3</combinedComparsionValue>
+          <advanced>true</advanced>
         </Condition>
       </conditions>
-      <color>17</color>
+      <color>7</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>DO NOT MISS THESE (level increase main skills)</nameOverride>
+      <emphasized>false</emphasized>
+      <nameOverride>good affixes (attack) tier 3 and up</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>502</int>
-            <int>49</int>
-            <int>4</int>
-            <int>84</int>
-            <int>38</int>
-            <int>9</int>
-            <int>39</int>
-            <int>100</int>
-            <int>722</int>
-            <int>23</int>
-            <int>6</int>
-            <int>5</int>
-            <int>80</int>
+            <int>10</int>
             <int>46</int>
-            <int>99</int>
-            <int>382</int>
-            <int>27</int>
-            <int>85</int>
-            <int>758</int>
-            <int>708</int>
-            <int>707</int>
-            <int>699</int>
-            <int>698</int>
-            <int>706</int>
-            <int>705</int>
-            <int>704</int>
-            <int>703</int>
-            <int>702</int>
-            <int>700</int>
-            <int>701</int>
-            <int>676</int>
-            <int>677</int>
-            <int>678</int>
-            <int>673</int>
-            <int>675</int>
-            <int>711</int>
-            <int>713</int>
-            <int>714</int>
-            <int>712</int>
-            <int>710</int>
-            <int>674</int>
-            <int>679</int>
-            <int>381</int>
-            <int>385</int>
-            <int>395</int>
-            <int>400</int>
-            <int>557</int>
-            <int>556</int>
-            <int>575</int>
-            <int>628</int>
-            <int>696</int>
-            <int>551</int>
-            <int>625</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>1</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-      </conditions>
-      <color>2</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>good affixes (Class specific)</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>502</int>
-            <int>49</int>
-            <int>4</int>
-            <int>84</int>
-            <int>38</int>
-            <int>9</int>
-            <int>39</int>
-            <int>100</int>
-            <int>722</int>
-            <int>23</int>
-            <int>6</int>
-            <int>5</int>
-            <int>80</int>
-            <int>46</int>
-            <int>99</int>
-            <int>382</int>
-            <int>27</int>
-            <int>85</int>
-            <int>758</int>
-            <int>708</int>
-            <int>707</int>
-            <int>699</int>
-            <int>698</int>
-            <int>706</int>
-            <int>705</int>
-            <int>704</int>
-            <int>703</int>
-            <int>702</int>
-            <int>700</int>
-            <int>701</int>
-            <int>676</int>
-            <int>677</int>
-            <int>678</int>
-            <int>673</int>
-            <int>675</int>
-            <int>711</int>
-            <int>713</int>
-            <int>714</int>
-            <int>712</int>
-            <int>710</int>
-            <int>674</int>
-            <int>679</int>
-            <int>381</int>
-            <int>385</int>
-            <int>395</int>
-            <int>400</int>
-            <int>557</int>
-            <int>556</int>
-            <int>575</int>
-            <int>628</int>
-            <int>696</int>
-            <int>551</int>
+            <int>45</int>
+            <int>19</int>
+            <int>7</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>5</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>6</combinedComparsionValue>
+          <combinedComparsionValue>5</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
-      <color>6</color>
+      <color>15</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
-      <nameOverride>good affixes (class specific item types) T5</nameOverride>
+      <nameOverride>good affixes (def) tier 5 and up</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -359,62 +120,19 @@
           <affixes>
             <int>502</int>
             <int>49</int>
-            <int>4</int>
-            <int>84</int>
             <int>38</int>
             <int>9</int>
             <int>39</int>
-            <int>100</int>
             <int>722</int>
             <int>23</int>
-            <int>6</int>
-            <int>5</int>
-            <int>80</int>
-            <int>46</int>
-            <int>99</int>
-            <int>382</int>
-            <int>27</int>
-            <int>85</int>
-            <int>758</int>
-            <int>708</int>
-            <int>707</int>
-            <int>699</int>
-            <int>698</int>
-            <int>706</int>
-            <int>705</int>
-            <int>704</int>
-            <int>703</int>
-            <int>702</int>
-            <int>700</int>
-            <int>701</int>
-            <int>676</int>
-            <int>677</int>
-            <int>678</int>
-            <int>673</int>
-            <int>675</int>
-            <int>711</int>
-            <int>713</int>
-            <int>714</int>
-            <int>712</int>
-            <int>710</int>
-            <int>674</int>
-            <int>679</int>
-            <int>381</int>
-            <int>385</int>
-            <int>395</int>
-            <int>400</int>
-            <int>557</int>
-            <int>556</int>
-            <int>575</int>
-            <int>628</int>
             <int>696</int>
-            <int>551</int>
+            <int>381</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>6</comparsionValue>
+          <comparsionValue>5</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>6</combinedComparsionValue>
+          <combinedComparsionValue>5</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
@@ -424,7 +142,31 @@
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
-      <nameOverride>good affixes (class specific item types) T6</nameOverride>
+      <nameOverride>good affixes (attack) tier 5 and up</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>556</int>
+            <int>557</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>9</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>DO NOT MISS THESE (level increase main skills)</nameOverride>
     </Rule>
     <Rule>
       <type>HIDE</type>
@@ -446,6 +188,7 @@
             <EquipmentType>BOW</EquipmentType>
             <EquipmentType>RELIC</EquipmentType>
             <EquipmentType>AMULET</EquipmentType>
+            <EquipmentType>CATALYST</EquipmentType>
           </type>
           <subTypes />
         </Condition>
@@ -478,9 +221,9 @@
       </conditions>
       <color>0</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
+      <levelDependent>true</levelDependent>
+      <minLvl>5</minLvl>
+      <maxLvl>100</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
     </Rule>
@@ -510,10 +253,287 @@
             <int>112</int>
             <int>110</int>
             <int>106</int>
+            <int>892</int>
+            <int>893</int>
+            <int>894</int>
+            <int>895</int>
+            <int>896</int>
+            <int>897</int>
+            <int>898</int>
+            <int>899</int>
+            <int>900</int>
+            <int>901</int>
+            <int>902</int>
+            <int>903</int>
+            <int>904</int>
+            <int>905</int>
+            <int>906</int>
+            <int>907</int>
+            <int>908</int>
+            <int>909</int>
+            <int>910</int>
+            <int>911</int>
+            <int>912</int>
+            <int>913</int>
+            <int>914</int>
+            <int>915</int>
+            <int>916</int>
+            <int>917</int>
+            <int>918</int>
+            <int>919</int>
+            <int>920</int>
+            <int>921</int>
+            <int>922</int>
+            <int>923</int>
+            <int>924</int>
+            <int>925</int>
+            <int>926</int>
+            <int>927</int>
+            <int>928</int>
+            <int>929</int>
+            <int>930</int>
+            <int>931</int>
+            <int>932</int>
+            <int>933</int>
+            <int>934</int>
+            <int>935</int>
+            <int>936</int>
+            <int>937</int>
+            <int>938</int>
+            <int>939</int>
+            <int>940</int>
+            <int>826</int>
+            <int>827</int>
+            <int>828</int>
+            <int>829</int>
+            <int>830</int>
+            <int>831</int>
+            <int>832</int>
+            <int>833</int>
+            <int>834</int>
+            <int>835</int>
+            <int>836</int>
+            <int>837</int>
+            <int>838</int>
+            <int>839</int>
+            <int>840</int>
+            <int>841</int>
+            <int>842</int>
+            <int>843</int>
+            <int>844</int>
+            <int>845</int>
+            <int>846</int>
+            <int>847</int>
+            <int>848</int>
+            <int>849</int>
+            <int>850</int>
+            <int>851</int>
+            <int>852</int>
+            <int>853</int>
+            <int>854</int>
+            <int>855</int>
+            <int>856</int>
+            <int>857</int>
+            <int>858</int>
+            <int>859</int>
+            <int>860</int>
+            <int>861</int>
+            <int>862</int>
+            <int>863</int>
+            <int>864</int>
+            <int>865</int>
+            <int>866</int>
+            <int>867</int>
+            <int>868</int>
+            <int>869</int>
+            <int>870</int>
+            <int>871</int>
+            <int>872</int>
+            <int>873</int>
+            <int>874</int>
+            <int>875</int>
+            <int>876</int>
+            <int>877</int>
+            <int>878</int>
+            <int>879</int>
+            <int>880</int>
+            <int>881</int>
+            <int>882</int>
+            <int>883</int>
+            <int>884</int>
+            <int>885</int>
+            <int>886</int>
+            <int>887</int>
+            <int>888</int>
+            <int>889</int>
+            <int>890</int>
+            <int>891</int>
+            <int>124</int>
+            <int>136</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>General Idols (at least 1) (class specific stats)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>105</int>
+            <int>430</int>
+            <int>107</int>
+            <int>108</int>
+            <int>109</int>
+            <int>117</int>
+            <int>120</int>
+            <int>122</int>
+            <int>123</int>
+            <int>134</int>
+            <int>141</int>
+            <int>142</int>
+            <int>320</int>
+            <int>111</int>
+            <int>116</int>
+            <int>115</int>
+            <int>113</int>
+            <int>114</int>
+            <int>112</int>
+            <int>110</int>
+            <int>106</int>
+            <int>892</int>
+            <int>893</int>
+            <int>894</int>
+            <int>895</int>
+            <int>896</int>
+            <int>897</int>
+            <int>898</int>
+            <int>899</int>
+            <int>900</int>
+            <int>901</int>
+            <int>902</int>
+            <int>903</int>
+            <int>904</int>
+            <int>905</int>
+            <int>906</int>
+            <int>907</int>
+            <int>908</int>
+            <int>909</int>
+            <int>910</int>
+            <int>911</int>
+            <int>912</int>
+            <int>913</int>
+            <int>914</int>
+            <int>915</int>
+            <int>916</int>
+            <int>917</int>
+            <int>918</int>
+            <int>919</int>
+            <int>920</int>
+            <int>921</int>
+            <int>922</int>
+            <int>923</int>
+            <int>924</int>
+            <int>925</int>
+            <int>926</int>
+            <int>927</int>
+            <int>928</int>
+            <int>929</int>
+            <int>930</int>
+            <int>931</int>
+            <int>932</int>
+            <int>933</int>
+            <int>934</int>
+            <int>935</int>
+            <int>936</int>
+            <int>937</int>
+            <int>938</int>
+            <int>939</int>
+            <int>940</int>
+            <int>826</int>
+            <int>827</int>
+            <int>828</int>
+            <int>829</int>
+            <int>830</int>
+            <int>831</int>
+            <int>832</int>
+            <int>833</int>
+            <int>834</int>
+            <int>835</int>
+            <int>836</int>
+            <int>837</int>
+            <int>838</int>
+            <int>839</int>
+            <int>840</int>
+            <int>841</int>
+            <int>842</int>
+            <int>843</int>
+            <int>844</int>
+            <int>845</int>
+            <int>846</int>
+            <int>847</int>
+            <int>848</int>
+            <int>849</int>
+            <int>850</int>
+            <int>851</int>
+            <int>852</int>
+            <int>853</int>
+            <int>854</int>
+            <int>855</int>
+            <int>856</int>
+            <int>857</int>
+            <int>858</int>
+            <int>859</int>
+            <int>860</int>
+            <int>861</int>
+            <int>862</int>
+            <int>863</int>
+            <int>864</int>
+            <int>865</int>
+            <int>866</int>
+            <int>867</int>
+            <int>868</int>
+            <int>869</int>
+            <int>870</int>
+            <int>871</int>
+            <int>872</int>
+            <int>873</int>
+            <int>874</int>
+            <int>875</int>
+            <int>876</int>
+            <int>877</int>
+            <int>878</int>
+            <int>879</int>
+            <int>880</int>
+            <int>881</int>
+            <int>882</int>
+            <int>883</int>
+            <int>884</int>
+            <int>885</int>
+            <int>886</int>
+            <int>887</int>
+            <int>888</int>
+            <int>889</int>
+            <int>890</int>
+            <int>891</int>
+            <int>124</int>
+            <int>136</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
           <advanced>false</advanced>
@@ -566,6 +586,21 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>Class Specific idols</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIDE</type>
+      <conditions>
+        <Condition i:type="ClassCondition">
+          <req>Primalist Sentinel Acolyte Rogue</req>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>other classes</nameOverride>
     </Rule>
     <Rule>
       <type>SHOW</type>
